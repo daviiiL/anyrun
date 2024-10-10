@@ -33,6 +33,7 @@
 #match:hover,
 #plugin:hover {
   background: #2e3131;
+  border-radius: 0.4rem;
 }
 
 #entry {
@@ -61,4 +62,5 @@ box#main {
     inset 0 0 0 1px #231f20,
     0 0 0 1px #0b0f10;
   padding: 0.3rem;
+  border-radius: 1rem;
 }
