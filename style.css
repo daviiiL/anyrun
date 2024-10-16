@@ -70,6 +70,6 @@ list > #plugin:hover {
 box#main {
   background: @base;
   border: 1px solid @blue;
-  border-radius: 24px;
+  border-radius: 10px;
   padding: 0.3rem;
 }
