@@ -1,3 +1,11 @@
+@define-color crust #11111b;
+@define-color mantle #181825;
+@define-color base #1e1e2e;
+@define-color text #cad3f5;
+@define-color blue #8aadf4;
+@define-color sapphire #7dc4e4;
+@define-color overlay #8087a2;
+
 * {
   all: unset;
   font-size: 1.3rem;
@@ -33,12 +41,12 @@
 #match:selected,
 #match:hover,
 #plugin:hover {
-  background: #7f849c;
-  color: #313244;
+  background: @overlay;
+  color: @crust;
 }
 
 #entry {
-  background: #1e1e2e;
+  background: @base;
 
   border-radius: 16px;
   margin: 0.5rem;
@@ -60,8 +68,8 @@ list > #plugin:hover {
 }
 
 box#main {
-  background: #1e1e2e;
-  border: 1px solid #74c7ec;
+  background: @base;
+  border: 1px solid @blue;
   border-radius: 24px;
   padding: 0.3rem;
 }
