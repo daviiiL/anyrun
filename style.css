@@ -46,7 +46,7 @@
 }
 
 #entry {
-  background: @base;
+  background: @crust;
 
   border-radius: 16px;
   margin: 0.5rem;
@@ -68,7 +68,7 @@ list > #plugin:hover {
 }
 
 box#main {
-  background: @base;
+  background: @crust;
   border: 1px solid @blue;
   border-radius: 10px;
   padding: 0.3rem;
