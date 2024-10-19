@@ -3,6 +3,7 @@
 @define-color base #1e1e2e;
 @define-color text #cad3f5;
 @define-color blue #8aadf4;
+@define-color blue_dimmed #4a638e;
 @define-color sapphire #7dc4e4;
 @define-color overlay #8087a2;
 
@@ -69,7 +70,7 @@ list > #plugin:hover {
 
 box#main {
   background: @crust;
-  border: 1px solid @blue;
+  border: 2px solid @blue_dimmed;
   border-radius: 10px;
   padding: 0.3rem;
 }
