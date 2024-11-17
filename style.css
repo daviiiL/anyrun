@@ -34,7 +34,8 @@
 #match:selected,
 #match:hover,
 #plugin:hover {
-  background: #2e3131;
+  background: @secondary;
+  color: @on_secondary;
   border-radius: 0.4rem;
 }
 
@@ -59,7 +60,7 @@ list > #plugin:hover {
 
 box#main {
   background: @headerbar_bg_color;
-  border: 2px solid @accent_bg_color;
+  border: 2px solid @on_primary_fixed_variant;
   padding: 0.3rem;
   border-radius: 1rem;
 }
