@@ -36,7 +36,7 @@ window {
 
 #match:selected {
   background: @source_color;
-  color: @on_primary;
+  color: @on_primary_container;
 }
 
 list > #plugin:last-child {
