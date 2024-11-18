@@ -31,11 +31,10 @@ window {
 
 #match-title {
   font-size: 1.3rem;
-  font-weight: 600;
 }
 
 #match:selected {
-  background: @source_color;
+  background: @primary_container;
   color: @on_primary_container;
 }
 
