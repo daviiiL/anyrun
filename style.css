@@ -38,3 +38,7 @@ window {
   background: @source_color;
   color: @on_primary;
 }
+
+list > #plugin:last-child {
+  margin-bottom: 0.8rem;
+}
