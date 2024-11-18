@@ -11,7 +11,7 @@ window {
 #entry {
   background-color: @background;
   color: @primary;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding: 1rem;
   border-radius: 0.6rem;
@@ -24,8 +24,14 @@ window {
 }
 
 #match {
+  margin-top: 0.2rem;
   padding: 0.3rem 0.2rem;
   border-radius: 0.8rem;
+}
+
+#match-title {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 #match:selected {
