@@ -2,65 +2,34 @@
 
 * {
   all: unset;
-  font-size: 1.3rem;
 }
 
-#plugin,
-#main {
-  background: @headerbar_bg_color;
-}
-
-#window {
-  background: transparent;
-}
-
-#match.activatable {
-  padding: 0.3rem 0.9rem;
-  margin-top: 0.01rem;
-}
-#match.activatable:first-child {
-  margin-top: 0.7rem;
-}
-#match.activatable:last-child {
-  margin-bottom: 0.6rem;
-}
-
-#plugin:hover #match.activatable {
-  padding: 0.3rem;
-  margin-top: 0.01rem;
-  margin-bottom: 0;
-}
-
-#match:selected,
-#match:hover,
-#plugin:hover {
-  background: @secondary;
-  color: @on_secondary;
-  border-radius: 0.4rem;
+window {
+  /*background: transparent;*/
+  font-family: Inter;
 }
 
 #entry {
-  background: @window_bg_color;
-  margin: 0.5rem;
-  padding: 0.3rem 1rem;
+  background-color: @background;
+  color: @primary;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 0.8rem;
 }
 
-list > #plugin {
-  margin: 0 0.3rem;
-}
-list > #plugin:first-child {
-  margin-top: 0.3rem;
-}
-list > #plugin:last-child {
-  margin-bottom: 0.3rem;
-}
-list > #plugin:hover {
-  padding: 0.6rem;
+#main {
+  background: @on_primary;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 0.8rem;
 }
 
-box#main {
-  background: @headerbar_bg_color;
-  border: 2px solid @on_primary_fixed_variant;
-  padding: 0.3rem;
-  border-radius: 1rem;
+#match {
+  padding: 0.3rem 0.2rem;
+  border-radius: 0.8rem;
+}
+
+#match:selected {
+  background: @source_color;
+  color: @on_primary;
 }
