@@ -7,6 +7,8 @@
 @define-color sapphire #7dc4e4;
 @define-color overlay #8087a2;
 
+/* no longer maintained;;;  */
+
 * {
   all: unset;
   font-size: 1.3rem;
